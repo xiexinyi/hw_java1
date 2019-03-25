@@ -11,7 +11,7 @@ public class PracticeC {
         for (String element : collection1) {
             String key = Character.toString(element.charAt(0));
             Integer num;
-            Integer length = element.length();
+            int length = element.length();
             if (length > 1) {
                 if (element.charAt(1) == '[') {
                     num = Integer.parseInt(element.substring(2,length - 1));
